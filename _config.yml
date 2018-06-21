@@ -7,12 +7,12 @@ description: "Every failure is leading towards success."
 keyword: "Etraca, WPF Blog, 王鹏飞的博客, wangpengfei, 王鹏飞, iOS, Apple, iPhone"
 url: "http://blog.wangpengfe.com"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Etraca" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_g.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -60,14 +60,14 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#   repo: qiubaiying.github.io    #仓库名称
+#   owner: qiubaiying    #github用户名
+#   admin: qiubaiying
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -99,11 +99,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "LJB",
+        href: "http://blog.liujiangbei.com/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书·wpf",
+        href: "http://www.jianshu.com/u/c6a8a498f7c0"
     },{
         title: "Apple",
         href: "https://apple.com"
