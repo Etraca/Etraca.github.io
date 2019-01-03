@@ -316,6 +316,9 @@ public class SimpleCacheTest {
 }
 ```
 
+```txt
+参考链接： https://www.tianxiaobo.com/2018/01/24/LinkedHashMap-源码详细分析（JDK1-8）/
+```
 
 
 
