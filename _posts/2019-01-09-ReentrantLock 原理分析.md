@@ -268,6 +268,7 @@ acquire 方法先调用子类实现的 tryAcquire 方法，用于尝试获取同
 #### 释放锁
 分析完了获取锁的相关逻辑，接下来再来分析一下释放锁的逻辑。与获取锁相比，释放锁的逻辑会简单一些，因为释放锁的过程没有公平和非公平之分。好了，下面开始分析 unlock 的逻辑：
 
+```java
 +--- ReentrantLock
 public void unlock() {
     // 调用 AQS 中的 release 方法
