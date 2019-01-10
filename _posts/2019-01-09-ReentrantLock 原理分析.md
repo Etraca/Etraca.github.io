@@ -261,7 +261,7 @@ node1 对应的线程比 node2 对应的线程在队列中等待的时间更长�
         acquireQueued(addWaiter(Node.EXCLUSIVE), arg))
         selfInterrupt();
 }
-``
+```
 
 acquire 方法先调用子类实现的 tryAcquire 方法，用于尝试获取同步状态，调用成功则直接返回。若调用失败，则应将线程插入到同步队列尾部，按照 FIFO 原则获取锁。如果我们把 tryAcquire 中的条件!hasQueuedPredecessors()去掉，公平锁将不再那么“谦让”，它将会像非公平锁那样抢占获取锁，抢占失败才会入队。若如此，公平锁将不再公平。
 
